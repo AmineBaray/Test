@@ -15,6 +15,6 @@
         echo "<h1>Laedx internship! </h1>"
         
     ?>
-        <h1>hi</h1>
+        <h1>hi amine</h1>
 </body>
 </html>
