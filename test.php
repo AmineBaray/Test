@@ -15,7 +15,9 @@
         echo "<h1>Laedex internship! </h1>"
     ?>
         <h1>hi amine</h1>
-    <h1>hi</h1>
+    <header>
+        <h1>Hello world !</h1>
+    </header>
     <footer>
         <p>Leadex Internship Copyright &copy; 2024</p>
         <P>,Mustapha</P>
