@@ -12,9 +12,13 @@
 </head>
 <body>
     <?php
-        echo "<h1>Laedx internship! </h1>"
-        
+        echo "<h1>Laedex internship! </h1>"
     ?>
         <h1>hi amine</h1>
+    <h1>hi</h1>
+    <footer>
+        <p>Leadex Internship Copyright &copy; 2024</p>
+        <P>,Mustapha</P>
+    </footer>
 </body>
 </html>
