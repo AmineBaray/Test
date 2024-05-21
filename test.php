@@ -18,6 +18,9 @@
     <header>
         <h1>Hello world !</h1>
     </header>
+    <section>
+        <p><strong> Fatima Ezzahra</strong></p>
+    </section>
     <footer>
         <p>Leadex Internship Copyright &copy; 2024</p>
         <P>,Mustapha</P>
