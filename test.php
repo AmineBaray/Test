@@ -17,6 +17,7 @@
     <h1>hi</h1>
     <footer>
         <p>Leadex Internship Copyright &copy; 2024</p>
+        <P>,Mustapha</P>
     </footer>
 </body>
 </html>
