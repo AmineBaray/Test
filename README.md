@@ -83,12 +83,12 @@ To get a local copy up and running, follow these steps.
 ### Setup
 
 Clone this repository to your desired folder:
-https://github.com/ridabensalem/tour-trek.git
+https://github.com//tour-trek.git
  Example commands:
 
 ```sh
   cd my-folder
-https://github.com/ridabensalem/tour-trek.git```
+https://github.com//tour-trek.git```
 ```
 
 ### Install
@@ -123,10 +123,6 @@ cd testing/
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Author1**
-
-- GitHub: [@ridabensalem](https://github.com/ridabnesalem)
-- Twitter: [@coder_rida](https://twitter.com/coder_rida)
-- LinkedIn: [ridabesalem](https://linkedin.com/in/ridabensalem)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
