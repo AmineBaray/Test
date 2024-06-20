@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+  height: 100%;
+}
+
+.leaflet-bottom,
+.leaflet-control,
+.leaflet-pane,
+.leaflet-top {
+  z-index: 0 !important;
+}
+
+.rdrMonth {
+  width: 100% !important;
+}
+
+.rdrCalendarWrapper {
+  font-size: 16px !important;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .Logo_container{
+    font-size: 0.9rem;
+    width: 30%;
+  }
+}
+/* border: 1px solid #ccc; Add a border */
+.custom-file-upload {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 320px;
+  box-sizing: border-box; 
+  height: 40px;
+}
+
+.custom-file-button {
+  position: absolute;
+  left: 10px; 
+  border: 2px solid #ccc;
+  color: rgb(0, 0, 0);
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  background-color: #f9f9f9;
+}
+
+.custom-file-button:hover {
+  background-color: #e0e0e0;
+}
+
+.selected-file {
+  font-family: sans-serif;
+  height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 116px; 
+  flex-grow: 1; 
+  line-height: 40px; 
+}
