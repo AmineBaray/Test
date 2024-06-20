@@ -90,6 +90,12 @@ const LoginModal = () => {
         errors={errors}
         required
       />
+       <Button 
+        outline 
+        label="Continue with Google"
+        icon={FcGoogle}
+        onClick={() => signIn('google')}
+      />
       <div className="flex justify-between items-center">
         <p>Not a member?</p>
         <a
