@@ -12,7 +12,6 @@ async function main() {
         username: faker.internet.userName(),
         dateOfBirth: faker.date.past().toISOString(),
         email: faker.internet.email(),
-        telephone: faker.number.int(),
         recoveryEmail: faker.internet.email(),
         gender: faker.person.sexType(),
         image: faker.image.avatar(),
