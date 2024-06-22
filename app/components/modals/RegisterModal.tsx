@@ -95,7 +95,25 @@ const RegisterModal= () => {
         errors={errors}
         required
       />
-       <div className="flex justify-between items-center">
+       
+    </div>
+  )
+  const footerContent = (
+    <div className="flex flex-col gap-4 mt-3">
+      <hr />
+      <Button 
+        outline 
+        label="Continue with Google"
+        icon={FcGoogle}
+        onClick={() => signIn('google')}
+      />
+      {/* <Button 
+        outline 
+        label="Continue with Github"
+        icon={AiFillGithub}
+        onClick={() => signIn('github')}
+      /> */}
+      <div className="flex justify-between items-center">
         <p>Already a  member?</p>
         <a
           className="text-blue-500 hover:underline cursor-pointer"

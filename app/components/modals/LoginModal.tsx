@@ -90,14 +90,35 @@ const LoginModal = () => {
         errors={errors}
         required
       />
-      <div className="flex justify-between items-center">
-        <p>Not a member?</p>
-        <a
-          className="text-blue-500 hover:underline cursor-pointer"
-          onClick={onToggle}
-        >
-          Sign up
-        </a>
+    </div>
+  )
+  const footerContent = (
+    <div className="flex flex-col gap-4 mt-3">
+      <hr />
+      <Button 
+        outline 
+        label="Continue with Google"
+        icon={FcGoogle}
+        onClick={() => signIn('google')}
+      />
+      {/* <Button 
+        outline 
+        label="Continue with Github"
+        icon={AiFillGithub}
+        onClick={() => signIn('github')}
+      /> */}
+      <div className="
+      text-neutral-500 text-center mt-4 font-light">
+        <p>Not a member?
+          <span 
+            onClick={onToggle} 
+            className="
+              text-neutral-800
+              cursor-pointer 
+              hover:underline
+            "
+            > Create an account</span>
+        </p>
       </div>
     </div>
   )
@@ -112,6 +133,7 @@ const LoginModal = () => {
       onClose={loginModal.onClose}
       onSubmit={handleSubmit(onSubmit)}
       body={bodyContent}
+      footer={footerContent}
     />
   );
 }
