@@ -94,6 +94,7 @@ const Sidebar: React.FC<SidebarProps> = ({ setCurretScreen }) => {
     <aside className="w-full bg-white sm:w-64 sm:border-r-2 sm:border-gray-300">
       <div className="text-center mb-4">
         <h1 className="text-2xl font-bold">My Profile</h1>
+      {showPopup && <Popup onClose={togglePopup} profileImage={profile?.image} />}
       </div>
       {profile && (
         <div className="text-center mb-4">
@@ -107,7 +108,6 @@ const Sidebar: React.FC<SidebarProps> = ({ setCurretScreen }) => {
           <p className="text-sm text-gray-900">Joined on: {new Date(profile.createdAt).toLocaleDateString()}</p>
         </div>
       )}
-      {showPopup && <Popup onClose={togglePopup} profileImage={profile?.image} />}
       <nav>
         <ul className="space-y-2">
           {navItems.map((item) => (
